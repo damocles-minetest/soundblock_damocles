@@ -23,5 +23,11 @@ soundblock.register({
   name = "Success 1"
 })
 
+soundblock.register({
+  filename = "damocles_soundblock_success_2",
+  key = "damocles_soundblock_success_2",
+  name = "Success 2"
+})
+
 
 print("[OK] soundblock_damocles")

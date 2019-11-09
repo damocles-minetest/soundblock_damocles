@@ -12,3 +12,6 @@
 
 * damocles_soundblock_success_1.ogg
   * CC0 https://freesound.org/people/Leszek_Szary/sounds/171670/
+
+* damocles_soundblock_success_2.ogg
+  * CC0 https://freesound.org/people/sepal/sounds/117900/
