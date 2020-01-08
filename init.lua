@@ -1,33 +1,26 @@
 
-soundblock.register({
-  filename = "damocles_soundblock_ambient_1",
-  key = "damocles_soundblock_ambient_1",
-  name = "Ambient background 1"
-})
+for i=1,6 do
+	soundblock.register({
+	  filename = "damocles_soundblock_ambient_" .. i,
+	  key = "damocles_soundblock_ambient_" .. i,
+	  name = "Ambient background " .. i
+	})
+end
 
-soundblock.register({
-  filename = "damocles_soundblock_ambient_2",
-  key = "damocles_soundblock_ambient_2",
-  name = "Ambient background 2"
-})
+for i=1,2 do
+	soundblock.register({
+	  filename = "damocles_soundblock_spooky_" .. i,
+	  key = "damocles_soundblock_spooky_" .. i,
+	  name = "Spooky background " .. i
+	})
+end
 
-soundblock.register({
-  filename = "damocles_soundblock_spooky_1",
-  key = "damocles_soundblock_spooky_1",
-  name = "Spooky background 1"
-})
-
-soundblock.register({
-  filename = "damocles_soundblock_success_1",
-  key = "damocles_soundblock_success_1",
-  name = "Success 1"
-})
-
-soundblock.register({
-  filename = "damocles_soundblock_success_2",
-  key = "damocles_soundblock_success_2",
-  name = "Success 2"
-})
-
+for i=1,3 do
+	soundblock.register({
+	  filename = "damocles_soundblock_success_" .. i,
+	  key = "damocles_soundblock_success_" .. i,
+	  name = "Success " .. i
+	})
+end
 
 print("[OK] soundblock_damocles")
